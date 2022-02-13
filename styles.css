@@ -1,0 +1,15 @@
+.nav{
+background-color: black;
+overflow: hidden;
+}
+
+.nav a{
+color: white;
+text-align: center;
+text-decoration: none;
+font-size: 17px;
+}
+
+.nav a:hover{
+background-color: green;
+}
