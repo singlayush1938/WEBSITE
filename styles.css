@@ -1,13 +1,24 @@
 *{
-  background-color: black;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
 }
-.a{
-  background-color: blue;
+.details{
+    height: calc( (100vh - 40px) / 3 );
+    font-size: 30px;
+    background-color: #e5e5e5;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 50px;
 }
-.b{
-  background-color: green;
+.details a{
+    color: black;
+    border: 5px solid;
+    border-radius: 10px;
+    padding: 5px;
 }
-.c{
-  background-color: red;
+.details a:hover{
+    color: gray;
+    text-decoration: none;
 }
